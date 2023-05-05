@@ -26,9 +26,14 @@ local Window = Rayfield:CreateWindow({
         }
      })
 
-     local Main = Window:CreateTab("Dahood", 4483362458) -- Title, Image
+     -- main
+local Main = Window:CreateTab("Main", 4483362458) -- Title, Image
+local MainSection = Main:CreateSection("main")
 
-     local Button = Main:CreateButton({
+
+
+
+local Button = Main:CreateButton({
         Name = "Mobile Keyboard",
         Callback = function()
                 loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
