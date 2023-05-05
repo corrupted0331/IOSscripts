@@ -49,3 +49,7 @@ local Button = Main:CreateButton({
     end,
  })
 
+
+
+Rayfield:LoadConfiguration()
+
