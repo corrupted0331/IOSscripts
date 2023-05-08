@@ -1,4 +1,13 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Attrixx/FreeScripts/main/YTUILib1.lua"))():init("THE HUB NAME")
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Attrixx/FreeScripts/main/YTUILib1.lua"))():init("ScriptWare IOS | script hub")
 -- This function takes 1 arguement, the hub name which is meant to be an string
-local Main = Library:Tab("test tab")
+local Main = Library:Tab("da hood")
 -- This function takes 1 arguement, which is the tab name which is mean to be an string
+local Section = Main:Section("scripts")
+-- This function takes 1 arguement, which is the section name which is supposed to be the section name
+local Button = Main:CreateButton({
+    Name = "nova",
+    Callback = function()
+    -- The function that takes place when the button is pressed
+    loadstring(game:HttpGet("https://icxy.xyz/NovaGui/NovaGui", true))()
+ end,
+ })
