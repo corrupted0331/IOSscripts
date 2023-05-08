@@ -8,7 +8,7 @@ Main:Button("faded",function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
 end)
 
-Main:Button("Swagmode",function()
+Tab1:Button("Swagmode",function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
 end)
 
